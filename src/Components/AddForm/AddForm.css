@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.input-class {
+    margin: 4rem auto;
+    /* margin-left: 5rem; */
+}
+
+.input-section {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 80%;
+}
+
+.label-input {
+    margin-left: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.input-info {
+    margin: 0 auto;
+    outline: 0;
+    border: 1px solid #000;
+    width: 90%;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.add-btn {
+    margin: 0 auto;
+    width: 75.5%;
+    padding: 0.6rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    background-color: #F69B14;
+    margin-top: 0.5rem;
+    transition: 0.15s all linear;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+background-color: #FFD700;
+}
+
+.table-section {
+    max-width: 75.5%;
+    margin: 1rem auto;
+}
+
+.table-header {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1rem 1.8rem;
+    border-top: 1px solid gray;
+}
+
+.table-section>div:nth-child(odd) {
+    background-color: #FFF;
+    border-bottom: 1px solid gray;
+}
+
+.table-section>div:nth-child(even) {
+    background-color: #AAA;
+    border-bottom: 1px solid gray;
+}
